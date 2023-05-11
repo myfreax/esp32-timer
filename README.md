@@ -21,3 +21,5 @@ ESP_ERROR_CHECK(
 ESP_ERROR_CHECK(
 set_interval("repeat_times", callback, &handle, &handle, time_us));
 ```
+## Example
+The [ESP32 Example Project](https://github.com/myfreax/esp32-example-project) demonstrates how to use IDF framework build application of reusable component

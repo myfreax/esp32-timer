@@ -19,5 +19,5 @@ ESP_ERROR_CHECK(
     set_timeout("once", callback, &handle, &handle, time_us));
 
 ESP_ERROR_CHECK(
-set_timeout("repeat_times", callback, &handle, &handle, time_us));
+set_interval("repeat_times", callback, &handle, &handle, time_us));
 ```
